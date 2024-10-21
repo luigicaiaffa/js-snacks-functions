@@ -23,7 +23,7 @@ function stringsFirstLetters(stringsList) {
 };
   
 // Invoca la funzione qui e stampa il risultato in console
-const namesFirstLetters = stringsFirstLetters(names)
-console.log(namesFirstLetters)
+const namesFirstLetters = stringsFirstLetters(names);
+console.log(namesFirstLetters);
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
