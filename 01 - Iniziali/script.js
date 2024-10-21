@@ -4,14 +4,14 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 function stringsFirstLetters(stringsList) {
-  // console.log(stringsList)
-  
+  // console.log(stringsList);
+
   let newArray = [];
 
   for (let i = 0; i < names.length; i++) {
     const currentString = names[i];
     // console.log(currentString);
-    
+
     const stringFirstLetter = currentString.charAt(0);
     // console.log(stringFirstLetter);
 
@@ -20,8 +20,8 @@ function stringsFirstLetters(stringsList) {
   }
 
   return newArray;
-};
-  
+}
+
 // Invoca la funzione qui e stampa il risultato in console
 const namesFirstLetters = stringsFirstLetters(names);
 console.log(namesFirstLetters);
