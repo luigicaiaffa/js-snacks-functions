@@ -8,8 +8,8 @@ function stringsFirstLetters(stringsList) {
 
   let newArray = [];
 
-  for (let i = 0; i < names.length; i++) {
-    const currentString = names[i];
+  for (let i = 0; i < stringsList.length; i++) {
+    const currentString = stringsList[i];
     // console.log(currentString);
 
     const stringFirstLetter = currentString.charAt(0);
